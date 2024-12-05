@@ -5,5 +5,6 @@ import os
 class TestFunction(unittest.TestCase):
 
   def test_functions(self):
-    os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    self.assertIsInstance(bastipy.geo_counter(input_path=r"..\data\NUTS_0.geojson"), int)
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(base_dir, "../data/NUTS_0.geojson")
+    self.assertIsInstance(bastipy.geo_counter(input_path), int)
