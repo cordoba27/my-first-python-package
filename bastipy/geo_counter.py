@@ -18,8 +18,8 @@ def geo_counter(input_path:str=None):
     if input_path == None:
         base_dir = os.path.dirname(os.path.abspath(__file__))
         input_path = os.path.join(base_dir, "../data/NUTS_0.geojson")
-    else:
-        data = gpd.read_file(input_path)
+    
+    data = gpd.read_file(input_path)
 
     feature_count = len(data)
 
