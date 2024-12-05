@@ -1,6 +1,7 @@
 import geopandas as gpd
+import os
 
-def geo_counter(input_path:str):
+def geo_counter(input_path:str=None):
     """A function that counts the features in a geographic data file.
       
     Parameters
@@ -14,7 +15,11 @@ def geo_counter(input_path:str):
         Number of features in file.
     
     """
-    data = gpd.read_file(input_path)
+    if input_path == None:
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        input_path = os.path.join(base_dir, "../data/NUTS_0.geojson")
+    else:
+        data = gpd.read_file(input_path)
 
     feature_count = len(data)
 
