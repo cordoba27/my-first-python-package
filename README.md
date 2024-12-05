@@ -3,6 +3,12 @@
 This is my first Python package! I created it using [this guide](https://luukvdmeer.github.io/my-first-python-package/guide.html).
 
 
+## Package
+
+There are two functions in this package:
+- geo_counter: It counts the number of features in your geofile!
+- open_url: It opens a "random" URL!
+
 ## License
 
 Copyright 2024 [Sebastian Schmidt]
