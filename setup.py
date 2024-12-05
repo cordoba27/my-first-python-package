@@ -13,7 +13,7 @@ except FileNotFoundError:
 # Metadata
 setup(
   name = "bastipy",
-  version = 0.0.0.9000,
+  version = "0.1",
   author = "Sebastian Schmidt",
   author_email = "sebastian.schmidt@plus.ac.at",
   description = "Count features in geofile.",
