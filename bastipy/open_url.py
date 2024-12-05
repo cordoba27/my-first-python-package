@@ -1,6 +1,6 @@
 import webbrowser
 
-def open_browser_tab(url=None):
+def open_url(url=None):
     """
     Opens a new browser tab with the specified URL.
 
