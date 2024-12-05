@@ -13,6 +13,7 @@ def open_browser_tab(url=None):
 
     if url == None:
         url = "https://www.youtube.com/watch?v=N-FYySSy0rM" # Luuk's favourite song
+        print("You are now listening to Luuk's favourite song :P")
 
     try:
         webbrowser.open_new_tab(url)
