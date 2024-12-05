@@ -18,5 +18,4 @@ def geo_counter(input_path:str):
 
     feature_count = len(data)
 
-    print(f"Your file contains {feature_count} features.")
     return feature_count

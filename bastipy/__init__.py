@@ -1,1 +1,1 @@
-from geo_counter import geo_counter
+from bastipy.geo_counter import geo_counter
