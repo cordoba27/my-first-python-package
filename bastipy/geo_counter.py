@@ -7,7 +7,7 @@ def geo_counter(input_path:str=None):
     Parameters
     ----------
     input_path : str
-        Path to local file.
+        Path to local file. Defaults to exemplary file in package.
 
     Returns
     -------

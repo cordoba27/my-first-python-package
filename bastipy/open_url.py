@@ -5,7 +5,7 @@ def open_url(url=None):
     Opens a new browser tab with the specified URL.
 
     Args:
-        url (str): The URL to open in the browser.
+        url (str): The URL to open in the browser. Defaults to exemplary URL in package.
 
     Returns:
         Opens browser tab
